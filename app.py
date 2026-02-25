@@ -9,19 +9,6 @@ import unicodedata
 
 # --- 1. CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(page_title="AgroRecomienda IA", page_icon="🌱", layout="wide")
-
-# Inyección de CSS para el fondo verde suave
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #F4FBF4;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("🌱 Asistente Agrónomo con Random forest")
 st.write("Ingresa las propiedades fisicoquímicas y geográficas de tu suelo para recibir las 3 mejores recomendaciones.")
 
